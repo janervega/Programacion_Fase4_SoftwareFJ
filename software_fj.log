@@ -1,0 +1,134 @@
+2026-11-18 16:19:05 [INFO    ] [SoftwareFJ.<module>:76] - >>> Sistema Integral de Gestión Software FJ Inicializado Correctamente <<<
+2026-11-18 16:19:05 [INFO    ] [SoftwareFJ.__init__:827] - Instancia de SistemaGestionFJ lista para operar en memoria.
+2026-11-18 16:19:05 [INFO    ] [SoftwareFJ.registrar_cliente:849] - Cliente registrado con éxito: [NIT-900823441] - Tecnología e Innovación Caribe S.A.S. (CORPORATIVO)
+2026-11-18 16:19:05 [ERROR   ] [SoftwareFJ.ejecutar_bateria_simulacion:976] - Capturada excepción controlada de datos: [ERR-DAT-101] Formato de correo electrónico inválido: 'carlos.gomez_invalido_sin_arroba.com'. Requiere estructura usuario@dominio.ext. (Ocurrido: 2026-11-18 16:19:05)
+2026-11-18 16:19:05 [ERROR   ] [SoftwareFJ.ejecutar_bateria_simulacion:994] - Excepción encadenada capturada correctamente: [ERR-DAT-101] El teléfono '300ABC8901' contiene caracteres alfabéticos no permitidos. (Ocurrido: 2026-11-18 16:19:05) | Causa: invalid literal for int() with base 10: '300ABC8901'
+2026-11-18 16:19:05 [INFO    ] [SoftwareFJ.registrar_servicio:860] - Servicio incorporado al catálogo: [SRV-SALA-AUD] - Auditorio Empresarial Silicon Valley
+2026-11-18 16:19:05 [ERROR   ] [SoftwareFJ.ejecutar_bateria_simulacion:1032] - Capturada inconsistencia económica: [ERR-CAL-404] La tarifa base (-85000.0) debe ser un valor numérico positivo mayor a cero. (Ocurrido: 2026-11-18 16:19:05)
+2026-11-18 16:19:05 [INFO    ] [SoftwareFJ.registrar_servicio:860] - Servicio incorporado al catálogo: [SRV-EQ-RACK] - Servidor Dell PowerEdge 32 Cores 128GB RAM
+2026-11-18 16:19:05 [INFO    ] [SoftwareFJ.registrar_servicio:860] - Servicio incorporado al catálogo: [SRV-ASE-CLOUD] - Consultoría en Arquitectura Cloud y DevOps
+2026-11-18 16:19:05 [INFO    ] [SoftwareFJ.crear_reserva:885] - Descuento comercial corporativo del 10% aplicado al cliente [NIT-900823441].
+2026-11-18 16:19:05 [INFO    ] [SoftwareFJ.__init__:709] - Reserva [RES-2026-001] creada en estado 'CREADA' para el cliente [NIT-900823441].
+2026-11-18 16:19:05 [INFO    ] [SoftwareFJ.confirmar:744] - Reserva [RES-2026-001] confirmada exitosamente. Monto total: $2,147,355.00
+2026-11-18 16:19:05 [INFO    ] [SoftwareFJ.crear_reserva:885] - Descuento comercial corporativo del 10% aplicado al cliente [NIT-900823441].
+2026-11-18 16:19:05 [INFO    ] [SoftwareFJ.__init__:709] - Reserva [RES-2026-002] creada en estado 'CREADA' para el cliente [NIT-900823441].
+2026-11-18 16:19:05 [WARNING ] [SoftwareFJ.marcar_no_disponible:365] - Servicio [SRV-EQ-RACK] marcado como NO DISPONIBLE.
+2026-11-18 16:19:05 [INFO    ] [SoftwareFJ.disminuir_stock:567] - Stock disminuido para [SRV-EQ-RACK]. Unidades restantes: 0
+2026-11-18 16:19:05 [INFO    ] [SoftwareFJ.confirmar:744] - Reserva [RES-2026-002] confirmada exitosamente. Monto total: $971,611.20
+2026-11-18 16:19:05 [INFO    ] [SoftwareFJ.crear_reserva:885] - Descuento comercial corporativo del 10% aplicado al cliente [NIT-900823441].
+2026-11-18 16:19:05 [WARNING ] [SoftwareFJ.ejecutar_bateria_simulacion:1114] - Intento de reserva denegado por falta de disponibilidad: [ERR-SRV-202] El servicio [SRV-EQ-RACK] no se encuentra disponible. (Ocurrido: 2026-11-18 16:19:05)
+2026-11-18 16:19:05 [WARNING ] [SoftwareFJ.cancelar:764] - Reserva [RES-2026-001] CANCELADA. Motivo: Cambio de fecha institucional por fuerza mayor.
+2026-11-18 16:19:05 [ERROR   ] [SoftwareFJ.ejecutar_bateria_simulacion:1131] - Violación de estado capturada: [ERR-OPR-303] La reserva [RES-2026-001] ya había sido cancelada con anterioridad. (Ocurrido: 2026-11-18 16:19:05)
+2026-11-18 16:19:05 [INFO    ] [SoftwareFJ.ejecutar_bateria_simulacion:1136] - Bloque finally de la operación 9 ejecutado sin interrupción.
+2026-11-18 16:19:05 [INFO    ] [SoftwareFJ.crear_reserva:885] - Descuento comercial corporativo del 10% aplicado al cliente [NIT-900823441].
+2026-11-18 16:19:05 [ERROR   ] [SoftwareFJ.ejecutar_bateria_simulacion:1151] - Capturado error en magnitud temporal: [ERR-CAL-404] La duración propuesta (-5.0) es inválida. (Ocurrido: 2026-11-18 16:19:05)
+2026-11-18 16:19:05 [INFO    ] [SoftwareFJ.registrar_cliente:849] - Cliente registrado con éxito: [CC-1017234890] - Laura Camila Restrepo (NATURAL)
+2026-11-18 16:19:05 [INFO    ] [SoftwareFJ.__init__:709] - Reserva [RES-2026-005] creada en estado 'CREADA' para el cliente [CC-1017234890].
+2026-11-18 16:19:05 [INFO    ] [SoftwareFJ.confirmar:744] - Reserva [RES-2026-005] confirmada exitosamente. Monto total: $1,037,799.00
+2026-11-18 16:19:05 [INFO    ] [SoftwareFJ.acumular_puntos:302] - Cliente [CC-1017234890] acumuló 103 puntos. Total actual: 103
+2026-11-18 16:19:05 [INFO    ] [SoftwareFJ.procesar_pago:796] - Pago liquidado para reserva [RES-2026-005]. Comprobante: {'reserva_id': 'RES-2026-005', 'cliente': 'Laura Camila Restrepo', 'servicio': 'Consultoría en Arquitectura Cloud y DevOps', 'monto_pagado': 1037799.0, 'cambio': 0.0, 'canal': 'PASARELA_PSE', 'puntos_asignados': 103, 'fecha_pago': '2026-11-18 16:19:05'}
+2026-11-18 16:19:47 [INFO    ] [SoftwareFJ.<module>:76] - >>> Sistema Integral de Gestión Software FJ Inicializado Correctamente <<<
+2026-11-18 16:19:47 [WARNING ] [SoftwareFJ.marcar_no_disponible:365] - Servicio [SRV-EQ-01] marcado como NO DISPONIBLE.
+2026-11-18 16:19:47 [INFO    ] [SoftwareFJ.disminuir_stock:567] - Stock disminuido para [SRV-EQ-01]. Unidades restantes: 0
+2026-11-18 16:19:47 [INFO    ] [SoftwareFJ.__init__:827] - Instancia de SistemaGestionFJ lista para operar en memoria.
+2026-11-18 16:19:47 [INFO    ] [SoftwareFJ.registrar_cliente:849] - Cliente registrado con éxito: [CC-55667788] - Andrea Morales (NATURAL)
+2026-11-18 16:19:47 [INFO    ] [SoftwareFJ.registrar_servicio:860] - Servicio incorporado al catálogo: [SRV-SALA-CONF] - Sala Capacitación
+2026-11-18 16:19:47 [INFO    ] [SoftwareFJ.__init__:709] - Reserva [RES-T-001] creada en estado 'CREADA' para el cliente [CC-55667788].
+2026-11-18 16:19:47 [INFO    ] [SoftwareFJ.confirmar:744] - Reserva [RES-T-001] confirmada exitosamente. Monto total: $208,250.00
+2026-11-18 16:19:47 [INFO    ] [SoftwareFJ.acumular_puntos:302] - Cliente [CC-55667788] acumuló 20 puntos. Total actual: 20
+2026-11-18 16:19:47 [INFO    ] [SoftwareFJ.procesar_pago:796] - Pago liquidado para reserva [RES-T-001]. Comprobante: {'reserva_id': 'RES-T-001', 'cliente': 'Andrea Morales', 'servicio': 'Sala Capacitación', 'monto_pagado': 208250.0, 'cambio': 0.0, 'canal': 'ONLINE', 'puntos_asignados': 20, 'fecha_pago': '2026-11-18 16:19:47'}
+2026-11-18 16:19:47 [INFO    ] [SoftwareFJ.__init__:827] - Instancia de SistemaGestionFJ lista para operar en memoria.
+2026-11-18 16:19:47 [INFO    ] [SoftwareFJ.registrar_cliente:849] - Cliente registrado con éxito: [CC-55667788] - Andrea Morales (NATURAL)
+2026-11-18 16:19:47 [INFO    ] [SoftwareFJ.registrar_servicio:860] - Servicio incorporado al catálogo: [SRV-SALA-CONF] - Sala Capacitación
+2026-11-18 16:19:47 [INFO    ] [SoftwareFJ.__init__:709] - Reserva [RES-T-002] creada en estado 'CREADA' para el cliente [CC-55667788].
+2026-11-18 16:19:47 [WARNING ] [SoftwareFJ.cancelar:764] - Reserva [RES-T-002] CANCELADA. Motivo: Cancelación programada
+2026-11-18 16:37:54 [INFO    ] [SoftwareFJ.<module>:76] - >>> Sistema Integral de Gestión Software FJ Inicializado Correctamente <<<
+2026-11-18 16:37:54 [INFO    ] [SoftwareFJ.__init__:827] - Instancia de SistemaGestionFJ lista para operar en memoria.
+2026-11-18 16:37:54 [INFO    ] [SoftwareFJ.registrar_cliente:849] - Cliente registrado con éxito: [NIT-900823441] - Tecnología e Innovación Caribe S.A.S. (CORPORATIVO)
+2026-11-18 16:37:54 [ERROR   ] [SoftwareFJ.ejecutar_bateria_simulacion:976] - Capturada excepción controlada de datos: [ERR-DAT-101] Formato de correo electrónico inválido: 'carlos.gomez_invalido_sin_arroba.com'. Requiere estructura usuario@dominio.ext. (Ocurrido: 2026-11-18 16:37:54)
+2026-11-18 16:37:54 [ERROR   ] [SoftwareFJ.ejecutar_bateria_simulacion:994] - Excepción encadenada capturada correctamente: [ERR-DAT-101] El teléfono '300ABC8901' contiene caracteres alfabéticos no permitidos. (Ocurrido: 2026-11-18 16:37:54) | Causa: invalid literal for int() with base 10: '300ABC8901'
+2026-11-18 16:37:54 [INFO    ] [SoftwareFJ.registrar_servicio:860] - Servicio incorporado al catálogo: [SRV-SALA-AUD] - Auditorio Empresarial Silicon Valley
+2026-11-18 16:37:54 [ERROR   ] [SoftwareFJ.ejecutar_bateria_simulacion:1032] - Capturada inconsistencia económica: [ERR-CAL-404] La tarifa base (-85000.0) debe ser un valor numérico positivo mayor a cero. (Ocurrido: 2026-11-18 16:37:54)
+2026-11-18 16:37:54 [INFO    ] [SoftwareFJ.registrar_servicio:860] - Servicio incorporado al catálogo: [SRV-EQ-RACK] - Servidor Dell PowerEdge 32 Cores 128GB RAM
+2026-11-18 16:37:54 [INFO    ] [SoftwareFJ.registrar_servicio:860] - Servicio incorporado al catálogo: [SRV-ASE-CLOUD] - Consultoría en Arquitectura Cloud y DevOps
+2026-11-18 16:37:54 [INFO    ] [SoftwareFJ.crear_reserva:885] - Descuento comercial corporativo del 10% aplicado al cliente [NIT-900823441].
+2026-11-18 16:37:54 [INFO    ] [SoftwareFJ.__init__:709] - Reserva [RES-2026-001] creada en estado 'CREADA' para el cliente [NIT-900823441].
+2026-11-18 16:37:54 [INFO    ] [SoftwareFJ.confirmar:744] - Reserva [RES-2026-001] confirmada exitosamente. Monto total: $2,147,355.00
+2026-11-18 16:37:54 [INFO    ] [SoftwareFJ.crear_reserva:885] - Descuento comercial corporativo del 10% aplicado al cliente [NIT-900823441].
+2026-11-18 16:37:54 [INFO    ] [SoftwareFJ.__init__:709] - Reserva [RES-2026-002] creada en estado 'CREADA' para el cliente [NIT-900823441].
+2026-11-18 16:37:54 [WARNING ] [SoftwareFJ.marcar_no_disponible:365] - Servicio [SRV-EQ-RACK] marcado como NO DISPONIBLE.
+2026-11-18 16:37:54 [INFO    ] [SoftwareFJ.disminuir_stock:567] - Stock disminuido para [SRV-EQ-RACK]. Unidades restantes: 0
+2026-11-18 16:37:54 [INFO    ] [SoftwareFJ.confirmar:744] - Reserva [RES-2026-002] confirmada exitosamente. Monto total: $971,611.20
+2026-11-18 16:37:54 [INFO    ] [SoftwareFJ.crear_reserva:885] - Descuento comercial corporativo del 10% aplicado al cliente [NIT-900823441].
+2026-11-18 16:37:54 [WARNING ] [SoftwareFJ.ejecutar_bateria_simulacion:1114] - Intento de reserva denegado por falta de disponibilidad: [ERR-SRV-202] El servicio [SRV-EQ-RACK] no se encuentra disponible. (Ocurrido: 2026-11-18 16:37:54)
+2026-11-18 16:37:54 [WARNING ] [SoftwareFJ.cancelar:764] - Reserva [RES-2026-001] CANCELADA. Motivo: Cambio de fecha institucional por fuerza mayor.
+2026-11-18 16:37:54 [ERROR   ] [SoftwareFJ.ejecutar_bateria_simulacion:1131] - Violación de estado capturada: [ERR-OPR-303] La reserva [RES-2026-001] ya había sido cancelada con anterioridad. (Ocurrido: 2026-11-18 16:37:54)
+2026-11-18 16:37:54 [INFO    ] [SoftwareFJ.ejecutar_bateria_simulacion:1136] - Bloque finally de la operación 9 ejecutado sin interrupción.
+2026-11-18 16:37:54 [INFO    ] [SoftwareFJ.crear_reserva:885] - Descuento comercial corporativo del 10% aplicado al cliente [NIT-900823441].
+2026-11-18 16:37:54 [ERROR   ] [SoftwareFJ.ejecutar_bateria_simulacion:1151] - Capturado error en magnitud temporal: [ERR-CAL-404] La duración propuesta (-5.0) es inválida. (Ocurrido: 2026-11-18 16:37:54)
+2026-11-18 16:37:54 [INFO    ] [SoftwareFJ.registrar_cliente:849] - Cliente registrado con éxito: [CC-1017234890] - Laura Camila Restrepo (NATURAL)
+2026-11-18 16:37:54 [INFO    ] [SoftwareFJ.__init__:709] - Reserva [RES-2026-005] creada en estado 'CREADA' para el cliente [CC-1017234890].
+2026-11-18 16:37:54 [INFO    ] [SoftwareFJ.confirmar:744] - Reserva [RES-2026-005] confirmada exitosamente. Monto total: $1,037,799.00
+2026-11-18 16:37:54 [INFO    ] [SoftwareFJ.acumular_puntos:302] - Cliente [CC-1017234890] acumuló 103 puntos. Total actual: 103
+2026-11-18 16:37:54 [INFO    ] [SoftwareFJ.procesar_pago:796] - Pago liquidado para reserva [RES-2026-005]. Comprobante: {'reserva_id': 'RES-2026-005', 'cliente': 'Laura Camila Restrepo', 'servicio': 'Consultoría en Arquitectura Cloud y DevOps', 'monto_pagado': 1037799.0, 'cambio': 0.0, 'canal': 'PASARELA_PSE', 'puntos_asignados': 103, 'fecha_pago': '2026-11-18 16:37:54'}
+2026-11-18 16:38:50 [INFO    ] [SoftwareFJ.<module>:76] - >>> Sistema Integral de Gestión Software FJ Inicializado Correctamente <<<
+2026-11-18 16:38:50 [WARNING ] [SoftwareFJ.marcar_no_disponible:365] - Servicio [SRV-EQ-01] marcado como NO DISPONIBLE.
+2026-11-18 16:38:50 [INFO    ] [SoftwareFJ.disminuir_stock:567] - Stock disminuido para [SRV-EQ-01]. Unidades restantes: 0
+2026-11-18 16:38:50 [INFO    ] [SoftwareFJ.__init__:827] - Instancia de SistemaGestionFJ lista para operar en memoria.
+2026-11-18 16:38:50 [INFO    ] [SoftwareFJ.registrar_cliente:849] - Cliente registrado con éxito: [CC-55667788] - Andrea Morales (NATURAL)
+2026-11-18 16:38:50 [INFO    ] [SoftwareFJ.registrar_servicio:860] - Servicio incorporado al catálogo: [SRV-SALA-CONF] - Sala Capacitación
+2026-11-18 16:38:50 [INFO    ] [SoftwareFJ.__init__:709] - Reserva [RES-T-001] creada en estado 'CREADA' para el cliente [CC-55667788].
+2026-11-18 16:38:50 [INFO    ] [SoftwareFJ.confirmar:744] - Reserva [RES-T-001] confirmada exitosamente. Monto total: $208,250.00
+2026-11-18 16:38:50 [INFO    ] [SoftwareFJ.acumular_puntos:302] - Cliente [CC-55667788] acumuló 20 puntos. Total actual: 20
+2026-11-18 16:38:50 [INFO    ] [SoftwareFJ.procesar_pago:796] - Pago liquidado para reserva [RES-T-001]. Comprobante: {'reserva_id': 'RES-T-001', 'cliente': 'Andrea Morales', 'servicio': 'Sala Capacitación', 'monto_pagado': 208250.0, 'cambio': 0.0, 'canal': 'ONLINE', 'puntos_asignados': 20, 'fecha_pago': '2026-11-18 16:38:50'}
+2026-11-18 16:38:50 [INFO    ] [SoftwareFJ.__init__:827] - Instancia de SistemaGestionFJ lista para operar en memoria.
+2026-11-18 16:38:50 [INFO    ] [SoftwareFJ.registrar_cliente:849] - Cliente registrado con éxito: [CC-55667788] - Andrea Morales (NATURAL)
+2026-11-18 16:38:50 [INFO    ] [SoftwareFJ.registrar_servicio:860] - Servicio incorporado al catálogo: [SRV-SALA-CONF] - Sala Capacitación
+2026-11-18 16:38:50 [INFO    ] [SoftwareFJ.__init__:709] - Reserva [RES-T-002] creada en estado 'CREADA' para el cliente [CC-55667788].
+2026-11-18 16:38:50 [WARNING ] [SoftwareFJ.cancelar:764] - Reserva [RES-T-002] CANCELADA. Motivo: Cancelación programada
+2026-11-18 17:02:35 [INFO] [SoftwareFJ:58] - Sistema de gestion Software FJ iniciado correctamente en memoria.
+2026-11-18 17:02:35 [INFO] [SoftwareFJ:667] - Controlador SistemaGestionFJ inicializado.
+2026-11-18 17:02:35 [INFO] [SoftwareFJ:674] - Cliente registrado: Soluciones Digitales S.A.S. [NIT-901458920]
+2026-11-18 17:02:35 [ERROR] [SoftwareFJ:762] - Error de formato capturado: [ERR-DATOS-100] El correo 'pedro_sin_arroba.com' no tiene un formato válido (usuario@dominio.com). (2026-11-18 17:02:35)
+2026-11-18 17:02:35 [ERROR] [SoftwareFJ:772] - Encadenamiento verificado: [ERR-DATOS-100] El teléfono '300ABC4567' contiene letras o símbolos no permitidos. (2026-11-18 17:02:35) | Causa: invalid literal for int() with base 10: '300ABC4567'
+2026-11-18 17:02:35 [INFO] [SoftwareFJ:683] - Servicio agregado al catálogo: [SRV-AUD-01] Auditorio Central de Innovación
+2026-11-18 17:02:35 [ERROR] [SoftwareFJ:791] - Tarifa negativa rechazada: [ERR-CALC-400] La tarifa base (-50000.0) debe ser mayor a cero. (2026-11-18 17:02:35)
+2026-11-18 17:02:35 [INFO] [SoftwareFJ:683] - Servicio agregado al catálogo: [SRV-SRV-01] Servidor Dell PowerEdge 64GB
+2026-11-18 17:02:35 [INFO] [SoftwareFJ:683] - Servicio agregado al catálogo: [SRV-ASE-01] Arquitectura en la Nube y DevOps
+2026-11-18 17:02:35 [INFO] [SoftwareFJ:700] - Aplicado 10% de descuento corporativo automático para Soluciones Digitales S.A.S.
+2026-11-18 17:02:35 [INFO] [SoftwareFJ:568] - Reserva RES-001 registrada para Soluciones Digitales S.A.S. en servicio Auditorio Central de Innovación.
+2026-11-18 17:02:35 [INFO] [SoftwareFJ:595] - Reserva RES-001 confirmada. Total a pagar: $1,702,890
+2026-11-18 17:02:35 [INFO] [SoftwareFJ:700] - Aplicado 10% de descuento corporativo automático para Soluciones Digitales S.A.S.
+2026-11-18 17:02:35 [INFO] [SoftwareFJ:568] - Reserva RES-002 registrada para Soluciones Digitales S.A.S. en servicio Servidor Dell PowerEdge 64GB.
+2026-11-18 17:02:35 [WARNING] [SoftwareFJ:312] - Servicio SRV-SRV-01 marcado como NO DISPONIBLE.
+2026-11-18 17:02:35 [INFO] [SoftwareFJ:476] - Unidad prestada de [SRV-SRV-01]. Stock restante: 0
+2026-11-18 17:02:35 [INFO] [SoftwareFJ:595] - Reserva RES-002 confirmada. Total a pagar: $494,802
+2026-11-18 17:02:35 [INFO] [SoftwareFJ:700] - Aplicado 10% de descuento corporativo automático para Soluciones Digitales S.A.S.
+2026-11-18 17:02:35 [WARNING] [SoftwareFJ:831] - Reserva denegada por inventario: [ERR-DISP-200] El servicio [SRV-SRV-01] no está disponible. (2026-11-18 17:02:35)
+2026-11-18 17:02:35 [WARNING] [SoftwareFJ:610] - Reserva RES-001 cancelada. Motivo: Reunión aplazada por el cliente
+2026-11-18 17:02:35 [ERROR] [SoftwareFJ:843] - Transición ilícita capturada: [ERR-OPER-300] La reserva RES-001 ya se encuentra cancelada. (2026-11-18 17:02:35)
+2026-11-18 17:02:35 [INFO] [SoftwareFJ:848] - Bloque finally de la prueba 9 ejecutado sin interrupciones.
+2026-11-18 17:02:35 [INFO] [SoftwareFJ:700] - Aplicado 10% de descuento corporativo automático para Soluciones Digitales S.A.S.
+2026-11-18 17:02:35 [ERROR] [SoftwareFJ:856] - Cálculo negativo evitado: [ERR-CALC-400] La duración de la reserva debe ser mayor a cero. (2026-11-18 17:02:35)
+2026-11-18 17:02:35 [INFO] [SoftwareFJ:674] - Cliente registrado: Carlos Eduardo Mora [CC-1094876543]
+2026-11-18 17:02:35 [INFO] [SoftwareFJ:568] - Reserva RES-005 registrada para Carlos Eduardo Mora en servicio Arquitectura en la Nube y DevOps.
+2026-11-18 17:02:35 [INFO] [SoftwareFJ:595] - Reserva RES-005 confirmada. Total a pagar: $1,028,160
+2026-11-18 17:02:35 [INFO] [SoftwareFJ:253] - Cliente CC-1094876543 acumuló 51 puntos. Total: 51
+2026-11-18 17:02:35 [INFO] [SoftwareFJ:638] - Pago asentado para reserva RES-005. Recibo: {'reserva': 'RES-005', 'cliente': 'Carlos Eduardo Mora', 'monto_pagado': 1028160.0, 'vueltas': 0.0, 'medio': 'PSE', 'puntos_ganados': 51, 'fecha': '2026-11-18 17:02'}
+2026-11-18 17:02:46 [INFO] [SoftwareFJ:58] - Sistema de gestion Software FJ iniciado correctamente en memoria.
+2026-11-18 17:02:46 [WARNING] [SoftwareFJ:312] - Servicio EQ-01 marcado como NO DISPONIBLE.
+2026-11-18 17:02:46 [INFO] [SoftwareFJ:476] - Unidad prestada de [EQ-01]. Stock restante: 0
+2026-11-18 17:02:46 [INFO] [SoftwareFJ:667] - Controlador SistemaGestionFJ inicializado.
+2026-11-18 17:02:46 [INFO] [SoftwareFJ:674] - Cliente registrado: Tech Corp S.A. [NIT-900111222]
+2026-11-18 17:02:46 [INFO] [SoftwareFJ:683] - Servicio agregado al catálogo: [SALA-AUD] Auditorio Principal
+2026-11-18 17:02:46 [INFO] [SoftwareFJ:700] - Aplicado 10% de descuento corporativo automático para Tech Corp S.A.
+2026-11-18 17:02:46 [INFO] [SoftwareFJ:568] - Reserva RES-100 registrada para Tech Corp S.A. en servicio Auditorio Principal.
+2026-11-18 17:02:46 [INFO] [SoftwareFJ:595] - Reserva RES-100 confirmada. Total a pagar: $353,430
+2026-11-18 17:02:46 [INFO] [SoftwareFJ:253] - Cliente NIT-900111222 acumuló 17 puntos. Total: 17
+2026-11-18 17:02:46 [INFO] [SoftwareFJ:638] - Pago asentado para reserva RES-100. Recibo: {'reserva': 'RES-100', 'cliente': 'Tech Corp S.A.', 'monto_pagado': 353430.0, 'vueltas': 0.0, 'medio': 'TRANSFERENCIA', 'puntos_ganados': 17, 'fecha': '2026-11-18 17:02'}
+2026-11-18 17:02:46 [INFO] [SoftwareFJ:667] - Controlador SistemaGestionFJ inicializado.
+2026-11-18 17:02:46 [INFO] [SoftwareFJ:674] - Cliente registrado: Tech Corp S.A. [NIT-900111222]
+2026-11-18 17:02:46 [INFO] [SoftwareFJ:683] - Servicio agregado al catálogo: [SALA-AUD] Auditorio Principal
+2026-11-18 17:02:46 [INFO] [SoftwareFJ:700] - Aplicado 10% de descuento corporativo automático para Tech Corp S.A.
+2026-11-18 17:02:46 [INFO] [SoftwareFJ:568] - Reserva RES-200 registrada para Tech Corp S.A. en servicio Auditorio Principal.
+2026-11-18 17:02:46 [WARNING] [SoftwareFJ:610] - Reserva RES-200 cancelada. Motivo: Cancelación justificada
