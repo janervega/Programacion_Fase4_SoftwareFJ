@@ -223,7 +223,7 @@ py -m pytest test_software_fj.py -v
 ## 7. Autor y Créditos
 
 * **Estudiante:** Janner Jose Vega Torres
-* **Código:** 1234567 | **Grupo:** 133
+* **Grupo:** 133
 * **Universidad:** Universidad Nacional Abierta y a Distancia (UNAD)
 * **Curso:** Programación (213023)
 * **Periodo:** 2026
